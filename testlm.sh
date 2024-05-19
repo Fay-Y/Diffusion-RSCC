@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python scripts/batch_decode.py diffusion_models/diff_e2e-tgt_block_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_e2e -1.0 ema
