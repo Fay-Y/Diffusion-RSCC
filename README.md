@@ -42,6 +42,6 @@ The left part is the before image, the righ part is the after image.
 ![test_001960](https://github.com/Fay-Y/RSCC-Diffusion/assets/145271140/142740a0-239e-42cd-9020-45a2b398efa3)
 
 
-#### More details will be upload in a few weeks.
+#### More details will be uploaded in a few weeks.
 
 
