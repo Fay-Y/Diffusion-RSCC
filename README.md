@@ -1,13 +1,13 @@
 # RSCC-Diffusion: Bridging Text and Bi-temporal Images for Change Captioning in Remote Sensing
 > __RSCC-Diffusion: Bridging Text and Bi-temporal Images for Change Captioning in Remote Sensing__  
-> _Xiaofei Yu, Yitong Li, Jie Ma* _  
+> Xiaofei Yu, Yitong Li, Jie Ma*  
 ## RSCC-Diffusion
 Here we provide the structure of our model:
 ![flow chart0520](https://github.com/Fay-Y/RSCC-Diffusion/assets/145271140/4a8c51df-f7eb-47df-ae30-d41ec38b9e9d)
 
 ## LEVIR-CC Dataset 
 Download Source:
-- All of the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset))]
+- All of the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset)]
 
 ## Installation and Dependencies
 ```python
