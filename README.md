@@ -18,18 +18,18 @@ conda activate RSCCDiffusion_env
 pip install -r requirements.txt
 ```
 ## Training
- To train the proposed method, run the following commands:
+ To train the proposed RSCC-Diffusion, run the following command:
 ```python
 sh demo.sh
 ```
 
 ## Testing
- To test evaluate and visualize on the test dataset, run the following command
+ To test, evaluate and visualize on the test dataset, run the following command
 ```python
 sh testlm.sh
 ```
 
-## Visualization
+## Visualization and Prediction samples
 ```python
 cd result
 ```
