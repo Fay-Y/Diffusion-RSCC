@@ -5,9 +5,7 @@
 > [Paper](https://ieeexplore.ieee.org/document/10282657)
 ## LEVIR-CC Dataset 
 Download Source:
-- All of the Dataset: [[Google Drive](https://drive.google.com/drive/folders/1cEv-BXISfWjw1RTzL39uBojH7atjLdCG?usp=sharing)  &#124; [Baidu Pan](https://pan.baidu.com/s/1YrWcz090kdqOZ0lrbqXJJA) (code:nq9y)]
-
-The path list in the downloaded folder is as follows:
+- All of the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset))]
 ```python
 path to LEVIR_CC_dataset:
                 ├─LevirCCcaptions.json
