@@ -1,24 +1,14 @@
-# RSCC-Diffusion
+# RSCC-Diffusion: Bridging Text and Bi-temporal Images for Change Captioning in Remote Sensing
 > __RSCC-Diffusion: Bridging Text and Bi-temporal Images for Change Captioning in Remote Sensing__  
 > _Xiaofei Yu, Jie Ma*, Yitong Li_  
+## RSCC-Diffusion
+Here we provide the structure of our model:
+![flow chart0520](https://github.com/Fay-Y/RSCC-Diffusion/assets/145271140/4a8c51df-f7eb-47df-ae30-d41ec38b9e9d)
 
 ## LEVIR-CC Dataset 
 Download Source:
 - All of the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset))]
-```python
-path to LEVIR_CC_dataset:
-                ├─LevirCCcaptions.json
-                ├─images
-                  ├─train
-                  │  ├─A
-                  │  ├─B
-                  ├─val
-                  │  ├─A
-                  │  ├─B
-                  ├─test
-                  │  ├─A
-                  │  ├─B
-```
+
 ## Installation and Dependencies
 ```python
 git clone https://github.com/Fay-Y/RSCC-Diffusion
@@ -43,7 +33,7 @@ sh testlm.sh
 ```python
 cd result
 ```
-In the paper, the predicted captions are saved in file "result". Prediction results in testing with random 5 Ground Truth captions are partly shown below, proving the effectiveness of our setting in the paper. 
+In the paper, the predicted captions are saved in folder "result". Prediction results in testing with random 5 Ground Truth captions are partly shown below, proving the effectiveness of our setting in the paper. 
 The left part is the before image, the righ part is the after image.
 
 ![test_000242](https://github.com/Fay-Y/RSCC-Diffusion/assets/145271140/b4d623c1-3f7b-436d-93ac-7862a018b051)
@@ -52,6 +42,6 @@ The left part is the before image, the righ part is the after image.
 ![test_001960](https://github.com/Fay-Y/RSCC-Diffusion/assets/145271140/142740a0-239e-42cd-9020-45a2b398efa3)
 
 
-####More details will be upload in a few weeks
+###More details will be upload in a few weeks
 
 
