@@ -19,7 +19,7 @@ path to LEVIR_CC_dataset:
                   │  ├─A
                   │  ├─B
 ```
-### Installation and Dependencies
+## Installation and Dependencies
 ```python
 git clone https://github.com/Fay-Y/RSCC-Diffusion
 cd RSCC-Diffusion
@@ -27,14 +27,20 @@ conda create -n RSCCDiffusion_env python=3.8
 conda activate RSCCDiffusion_env
 pip install -r requirements.txt
 ```
-### Training
+## Training
  To train the proposed method, run the following commands:
 ```python
 sh demo.sh
 ```
 
-#### Testing
+## Testing
  To test evaluate and visualize on the test dataset, run the following command
 ```python
 sh testlm.sh
 ```
+
+## Visualization
+```python
+cd result
+```
+
