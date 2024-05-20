@@ -29,12 +29,12 @@ pip install -r requirements.txt
 ```
 ### Training
  To train the proposed method, run the following commands:
-'''
+```python
 sh demo.sh
-'''
+```
 
 #### Testing
  To test evaluate and visualize on the test dataset, run the following command
-'''
+```python
 sh testlm.sh
-'''
+```
