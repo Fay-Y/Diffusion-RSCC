@@ -26,7 +26,7 @@ cd RSCC-Diffusion
 conda create -n RSCCDiffusion_env python=3.8
 conda activate RSCCDiffusion_env
 pip install -r requirements.txt
-
+```
 ### Training
  To train the proposed method, run the following commands:
 '''
