@@ -18,7 +18,7 @@ path to LEVIR_CC_dataset:
                   ├─test
                   │  ├─A
                   │  ├─B
-
+```
 ### Installation and Dependencies
 ```python
 git clone https://github.com/Fay-Y/RSCC-Diffusion
