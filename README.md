@@ -38,10 +38,11 @@ In the paper, the predicted captions are saved in folder "result".
 ## Prediction samples
 Prediction results in test set with 5 Ground Truth captions are partly shown below, proving the effectiveness of our model. 
 For each image pair, the left part is the before image, the righ part is the after image.
+Example 1:
 ![1](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/048c0dcc-cdae-423d-b021-a2ba1a4a1d9d)
-
+Example 2:
 ![2](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/cefc4fa0-d1f3-47cf-ae29-ec75595e26d6)
-
+Example 3:
 ![3](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/9920745a-9363-47ba-9289-efa3d9aa572b)
 
 #### More details will be uploaded in a few weeks.
