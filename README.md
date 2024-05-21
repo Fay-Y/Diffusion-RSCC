@@ -34,7 +34,7 @@ sh testlm.sh
 ```python
 cd result
 ```
-In the paper, the predicted captions are saved in folder "result". Prediction results in testing with 5 Ground Truth captions are partly shown below, proving the effectiveness of our setting in the paper. 
+In the paper, the predicted captions are saved in folder "result". Prediction results in test set with 5 Ground Truth captions are partly shown below, proving the effectiveness of our model. 
 For each image pair, the left part is the before image, the righ part is the after image.
 
 ![quantitative result_lr](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/fce97278-422a-4bbf-83a3-392c0c2e63cc)
