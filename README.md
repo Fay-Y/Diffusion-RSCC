@@ -3,7 +3,8 @@
 > Xiaofei Yu, Yitong Li, Jie Ma*  
 ## Diffusion-RSCC
 Here we provide the structure of our model:
-![flow chart0520](https://github.com/Fay-Y/RSCC-Diffusion/assets/145271140/4a8c51df-f7eb-47df-ae30-d41ec38b9e9d)
+
+![flow chart0521](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/a8b7e4a4-0317-46c1-8e04-8b3aadc569fc)
 
 ## LEVIR-CC Dataset 
 Download Source:
