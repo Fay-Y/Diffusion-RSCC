@@ -30,18 +30,17 @@ sh demo.sh
 sh testlm.sh
 ```
 
-## Visualization and Prediction samples
+## Visualization
 ```python
 cd result
 ```
-In the paper, the predicted captions are saved in folder "result". Prediction results in test set with 5 Ground Truth captions are partly shown below, proving the effectiveness of our model. 
+In the paper, the predicted captions are saved in folder "result". 
+## Prediction samples
+Prediction results in test set with 5 Ground Truth captions are partly shown below, proving the effectiveness of our model. 
 For each image pair, the left part is the before image, the righ part is the after image.
-
-![quantitative result_lr](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/fce97278-422a-4bbf-83a3-392c0c2e63cc)
-
-![ablation1_LR](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/f434ddf4-fd16-4575-8106-376da360a489)
-
-![ablation study2_lr](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/45d4ee2f-7e6b-4007-a4c9-236c1c16f58f)
+![1](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/048c0dcc-cdae-423d-b021-a2ba1a4a1d9d)
+![2](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/cefc4fa0-d1f3-47cf-ae29-ec75595e26d6)
+![3](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/9920745a-9363-47ba-9289-efa3d9aa572b)
 
 #### More details will be uploaded in a few weeks.
 
