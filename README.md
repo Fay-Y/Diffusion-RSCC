@@ -49,7 +49,7 @@ Example 2:
 
 Example 3:
 
-![3](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/9920745a-9363-47ba-9289-efa3d9aa572b)
+![3](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/87968589-b730-41f4-8064-8eb27cced78f)
 
 #### More details will be uploaded in a few weeks.
 
