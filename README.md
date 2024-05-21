@@ -1,7 +1,7 @@
-# RSCC-Diffusion: Bridging Text and Bi-temporal Images for Change Captioning in Remote Sensing
-> __RSCC-Diffusion: Bridging Text and Bi-temporal Images for Change Captioning in Remote Sensing__  
+# Diffusion-RSCC: Diffusion Probabilistic Model for Change Captioning in Remote Sensing Images
+> __Diffusion-RSCC: Diffusion Probabilistic Model for Change Captioning in Remote Sensing Images__  
 > Xiaofei Yu, Yitong Li, Jie Ma*  
-## RSCC-Diffusion
+## Diffusion-RSCC
 Here we provide the structure of our model:
 ![flow chart0520](https://github.com/Fay-Y/RSCC-Diffusion/assets/145271140/4a8c51df-f7eb-47df-ae30-d41ec38b9e9d)
 
