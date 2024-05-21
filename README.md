@@ -36,8 +36,11 @@ cd result
 ```
 In the paper, the predicted captions are saved in folder "result". Prediction results in testing with 5 Ground Truth captions are partly shown below, proving the effectiveness of our setting in the paper. 
 The left part is the before image, the righ part is the after image.
+![quantitative result_lr](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/fce97278-422a-4bbf-83a3-392c0c2e63cc)
 
+![ablation1_LR](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/f434ddf4-fd16-4575-8106-376da360a489)
 
+![ablation study2_lr](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/45d4ee2f-7e6b-4007-a4c9-236c1c16f58f)
 
 #### More details will be uploaded in a few weeks.
 
