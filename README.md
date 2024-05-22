@@ -19,7 +19,7 @@ conda activate DiffusionRSCC_env
 pip install -r requirements.txt
 ```
 ## Training
- To train the proposed RSCC-Diffusion, run the following command:
+ To train the proposed Diffusion-RSCC, run the following command:
 ```python
 sh demo.sh
 ```
