@@ -12,10 +12,10 @@ Download Source:
 
 ## Installation and Dependencies
 ```python
-git clone https://github.com/Fay-Y/RSCC-Diffusion
-cd RSCC-Diffusion
-conda create -n RSCCDiffusion_env python=3.8
-conda activate RSCCDiffusion_env
+git clone https://github.com/Fay-Y/Diffusion-RSCC
+cd Diffusion-RSCC
+conda create -n DiffusionRSCC_env python=3.8
+conda activate DiffusionRSCC_env
 pip install -r requirements.txt
 ```
 ## Training
