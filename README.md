@@ -19,6 +19,7 @@ conda activate DiffusionRSCC_env
 pip install -r requirements.txt
 ```
 ## Preparation
+Preprocess the raw captions and image pairs:
 ```python
 python word_encode.py
 python img_preprocess.py
