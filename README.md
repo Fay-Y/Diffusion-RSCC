@@ -1,6 +1,6 @@
 # Diffusion-RSCC: Diffusion Probabilistic Model for Change Captioning in Remote Sensing Images
 > __Diffusion-RSCC: Diffusion Probabilistic Model for Change Captioning in Remote Sensing Images__  
-> Xiaofei Yu, Yitong Li, Jie Ma*  [paper](https://arxiv.org/abs/2405.12875)
+> Xiaofei Yu, Yitong Li, Jie Ma*  [[paper](https://arxiv.org/abs/2405.12875)]
 ## Diffusion-RSCC
 Here we provide the structure of our model:
 
