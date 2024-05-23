@@ -18,6 +18,11 @@ conda create -n DiffusionRSCC_env python=3.8
 conda activate DiffusionRSCC_env
 pip install -r requirements.txt
 ```
+## Preparation
+```python
+python word_encode.py
+```
+
 ## Training
  To train the proposed Diffusion-RSCC, run the following command:
 ```python
