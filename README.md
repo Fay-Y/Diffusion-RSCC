@@ -9,6 +9,21 @@ Here we provide the structure of our model:
 ## LEVIR-CC Dataset 
 Download Source:
 -Thanks for the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset)].
+Put the content of downloaded dataset under the folder 'data'
+```python
+path to ./data:
+                ├─LevirCCcaptions.json
+                ├─images
+                  ├─train
+                  │  ├─A
+                  │  ├─B
+                  ├─val
+                  │  ├─A
+                  │  ├─B
+                  ├─test
+                  │  ├─A
+                  │  ├─B
+```
 
 ## Installation and Dependencies
 ```python
