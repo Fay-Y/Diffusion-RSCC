@@ -82,29 +82,3 @@ class CCDataset(Dataset):
             # text_info = self.caption_data[image_key]
             return image_before,image_after, np.array(text_info),image_key
 
-# # 使用示例
-# data_folder = '/root/yxf/Diffusion_clip_VARD/datasets'
-# split = 'train'
-
-
-# batch_size = 1
-
-# dataset = CCDataset(data_folder, split)
-# dataloader = DataLoader(dataset, batch_size, shuffle=False)
-# # def selectsentence(input):
-# #     bs, num_sen,  _ = input.size()# input是形状为 (bs, 5, 41) 的张量
-
-# #     # 随机选择一个索引，表示从 5 句话中选择一句
-# #     random_index = random.randint(0, num_sen-1)
-    
-# #     # 通过索引选择对应的句子，得到形状为 (bs, 1, 41) 的张量
-# #     selected_sentence = input[:,random_index,:]
-
-# #     return selected_sentence
-# # print(len(dataset))
-# # 可以迭代dataloader并访问每个样本
-# i= 0 
-# for img1,img2,cap,key in dataloader:
-    
-#     print(i,key,cap)
-#     i+=1
