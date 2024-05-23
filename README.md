@@ -8,7 +8,7 @@ Here we provide the structure of our model:
 
 ## LEVIR-CC Dataset 
 Download Source:
-- All of the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset)]
+-Thanks for the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset)].
 
 ## Installation and Dependencies
 ```python
@@ -21,6 +21,7 @@ pip install -r requirements.txt
 ## Preparation
 ```python
 python word_encode.py
+python img_preprocess.py
 ```
 
 ## Training
