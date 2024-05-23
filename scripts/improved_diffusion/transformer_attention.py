@@ -1,7 +1,7 @@
 from .transformer_utils import BertAttention, trans_nd, layer_norm
-from .transformerK import AutoConfig
+from transformers import AutoConfig
 # from transformers import BertEncoder
-from .transformerK.models.bert.modeling_bert import BertEncoder
+from transformers.models.bert.modeling_bert import BertEncoder
 import torch
 from abc import abstractmethod
 
