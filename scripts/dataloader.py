@@ -47,21 +47,7 @@ class CCDataset(Dataset):
 
         # image_before =image_info[image_key]['feat_bef']
         # image_after = image_info[image_key]['feat_aft']
-        nochange = [[996,   1,   2,   3,   4, 997,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
-         [996,   5,   6,   7,   8,   9, 997,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
-         [996,   5,  10,   2,   5,  11,  12,  13, 997,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
-         [996,   3,  14,  15,  16, 997,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0],
-         [996,  17,  18,  15,  19, 997,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0]]
+
         
         if self.split == 'test':
             text_info = self.caption_data[image_key]
@@ -75,10 +61,7 @@ class CCDataset(Dataset):
                     text_info = captions[caption_idx]
                     break
                 sentence_count += len(captions)
-            if text_info in nochange:
-                text_info = [996,   5,  10,   2,   5,  11,  12,  13, 997,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,
-            0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0]
+           
             # text_info = self.caption_data[image_key]
             return image_before,image_after, np.array(text_info),image_key
 
