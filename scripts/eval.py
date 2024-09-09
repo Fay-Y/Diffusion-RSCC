@@ -49,47 +49,16 @@ def result_presentation(tgts,hypos,wst,filenames,tokenizer):
         for tgt in enumerate(tgts[i]):
             y_offset += line_height          
             draw.text((initial_position[0], y_offset), f"GT: {tgt}", fill="black", font=font)
-        
-        # print('the mertic result for the image',i)
-        # tmp_metric = get_eval_score([eval_ref[i]],[eval_hypo[i]])
-        # y_offset+= line_height
-        # draw.text((initial_position[0], y_offset), f"bleu4: {tmp_metric['Bleu_4']}", fill="black", font=font)
-        # y_offset+= line_height
-        # draw.text((initial_position[0], y_offset), f"meteor: {tmp_metric['METEOR']}", fill="black", font=font)
-        # y_offset+= line_height
-        # draw.text((initial_position[0], y_offset), f"rouge_L: {tmp_metric['ROUGE_L']}", fill="black", font=font)
-        # y_offset+= line_height
-        # draw.text((initial_position[0], y_offset), f"cider: {tmp_metric['CIDEr']}", fill="black", font=font)
 
         tmp_save = os.path.join(save_path,filename)
 
         new_image.save(tmp_save)  
-        # output_json[str(i)]={
-        #     'filename': filename,
-        #     'refs': tgts[i],
-        #     'cand': [hypos[i]]
-        # }
-
-        sentences = [
-        "there is no difference",
-        "the two scenes seem identical",
-        "the scene is the same as before",
-        "no change has occurred",
-        "almost nothing has changed"
-         ]
-        match_hypo =  None
-        if hypos[i] in sentences:
-            match_hypo = "the scene is the same as before"
-        else:
-            match_hypo =  hypos[i]
+       
+        match_hypo =  hypos[i]
         output_json[str(i)] = {
             'filename':filename,
             'refs': tgts[i],
             'cand': [match_hypo]}
-        output_json_raw[str(i)] = {
-            'filename':filename,
-            'refs': tgts[i],
-            'cand': [hypos[i]]}
         
     tmp_json ={}
     tmp_json.update(output_json)   
@@ -97,11 +66,7 @@ def result_presentation(tgts,hypos,wst,filenames,tokenizer):
     with open(json_path, 'w') as file1:
         json.dump(tmp_json, file1,indent=4)
         
-    raw_tmp_json = {}
-    raw_tmp_json.update(output_json_raw)
-    raw_json_path = os.path.join(save_path, 'diffusionCC_raw.json') 
-    with open(raw_json_path, 'w') as file2:
-        json.dump(raw_tmp_json, file2,indent=4)
+
 
 def result_process(references,hypotheses,tokenizer):
     # print('ref:',references)
