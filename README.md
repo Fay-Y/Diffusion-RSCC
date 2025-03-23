@@ -10,6 +10,7 @@ The proposed Diffusion-RSCC consists of:
   - **Cross-Mode Fusion (CMF)**: Integrates visual and textual modalities for precise alignment.
   - **Stacking Self-Attention (SSA)**: Refines cross-modal information for accurate conditional mean estimation.
 - The denoised latent vectors are converted into natural language captions.
+
 ![flowchart](https://github.com/user-attachments/assets/2bc99e09-b23b-416c-aa63-044a059be52f)
 
 ### Datasets
