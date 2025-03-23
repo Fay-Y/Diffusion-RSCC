@@ -74,10 +74,13 @@ cd result
 In the paper, the predicted captions are saved in folder "result". 
 ## Prediction samples
 Prediction results in test set with 5 Ground Truth captions are partly shown below, proving the effectiveness of our model. 
-![compare2](https://github.com/user-attachments/assets/eaf7ba0c-1a4d-44cd-9d11-84bfda0058ab)
-![compare1](https://github.com/user-attachments/assets/b61bad59-afd0-4313-9b97-d7ab859222eb)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eaf7ba0c-1a4d-44cd-9d11-84bfda0058ab" alt="compare2" width="600"/>
+</p>
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b61bad59-afd0-4313-9b97-d7ab859222eb" alt="compare1" width="600"/>
+</p>
 
 ## TODO
 - [ ] Release training logs and checkpoints
