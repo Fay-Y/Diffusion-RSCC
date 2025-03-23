@@ -1,8 +1,15 @@
 # Diffusion-RSCC: Diffusion Probabilistic Model for Change Captioning in Remote Sensing Images
 > __Diffusion-RSCC: Diffusion Probabilistic Model for Change Captioning in Remote Sensing Images__  
 > Xiaofei Yu, Yitong Li, Jie Ma*  [[paper](https://arxiv.org/abs/2405.12875)]
-## Diffusion-RSCC
-Here we provide the structure of our model:
+
+##  Model Architecture
+The proposed Diffusion-RSCC consists of:
+- A **forward diffusion process** that adds noise to caption embeddings until they resemble Gaussian noise.
+- A **reverse denoising process** using a specially designed **Condition Denoiser**:
+  - **Feature Extractor**: Pretrained ResNet101 to extract features from bi-temporal images.
+  - **Cross-Mode Fusion (CMF)**: Integrates visual and textual modalities for precise alignment.
+  - **Stacking Self-Attention (SSA)**: Refines cross-modal information for accurate conditional mean estimation.
+- The denoised latent vectors are converted into natural language captions.
 
 ![flow chart0521](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/a8b7e4a4-0317-46c1-8e04-8b3aadc569fc)
 
