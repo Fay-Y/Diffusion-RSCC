@@ -78,6 +78,12 @@ For each image pair, the left part is the before image, the righ part is the aft
 ![github](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/16ca7a45-a4bd-4aff-8878-26cf48d8caf7)
 
 
+## TODO
+- [ ] Release training logs and checkpoints
+- [ ] Support more RSICC datasets (e.g., SEN12MS-CC)
+
+
+
 
 
 
