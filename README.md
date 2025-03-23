@@ -16,7 +16,8 @@ The proposed Diffusion-RSCC consists of:
 #### LEVIR-CC
 - A large-scale RSICC dataset with 10,077 bi-temporal image pairs and 50,385 captions.
 - Covers multiple semantic change types: buildings, roads, vegetation, parking lots, water.
-- Resized images: 256×256 pixels at 0.5m/pixel resolution.
+- Resized images: 256×256.
+
 Download Source:
 -Thanks for the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset)].
 Put the content of downloaded dataset under the folder 'data'
@@ -35,8 +36,8 @@ path to ./data:
                   │  ├─B
 ```
 #### DUBAI-CC
-- Contains 500 urban area image pairs with annotations for changes in roads, buildings, lakes, etc.
-- Cropped into 256×256 tiles from Landsat 7 imagery.
+- Contains 500 urban area image pairs with 2500 annotations for changes in roads, buildings, lakes, etc.
+- Resized into 256×256 in Diffusion-RSCC.
 - Focuses on urbanization and land cover changes over 10 years.
 
 
