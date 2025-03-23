@@ -12,8 +12,11 @@ The proposed Diffusion-RSCC consists of:
 - The denoised latent vectors are converted into natural language captions.
 
 ![flow chart0521](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/a8b7e4a4-0317-46c1-8e04-8b3aadc569fc)
-
-## LEVIR-CC Dataset 
+###datasets
+#### LEVIR-CC
+- A large-scale RSICC dataset with 10,077 bi-temporal image pairs and 50,385 captions.
+- Covers multiple semantic change types: buildings, roads, vegetation, parking lots, water.
+- Resized images: 256×256 pixels at 0.5m/pixel resolution.
 Download Source:
 -Thanks for the Dataset by Liu et. al:[[GitHub](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset)].
 Put the content of downloaded dataset under the folder 'data'
@@ -31,6 +34,11 @@ path to ./data:
                   │  ├─A
                   │  ├─B
 ```
+#### DUBAI-CC
+- Contains 500 urban area image pairs with annotations for changes in roads, buildings, lakes, etc.
+- Cropped into 256×256 tiles from Landsat 7 imagery.
+- Focuses on urbanization and land cover changes over 10 years.
+
 
 ## Installation and Dependencies
 ```python
