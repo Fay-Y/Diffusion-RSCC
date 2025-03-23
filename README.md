@@ -10,9 +10,9 @@ The proposed Diffusion-RSCC consists of:
   - **Cross-Mode Fusion (CMF)**: Integrates visual and textual modalities for precise alignment.
   - **Stacking Self-Attention (SSA)**: Refines cross-modal information for accurate conditional mean estimation.
 - The denoised latent vectors are converted into natural language captions.
+![flowchart](https://github.com/user-attachments/assets/2bc99e09-b23b-416c-aa63-044a059be52f)
 
-![flow chart0521](https://github.com/Fay-Y/Diffusion-RSCC/assets/145271140/a8b7e4a4-0317-46c1-8e04-8b3aadc569fc)
-###datasets
+### Datasets
 #### LEVIR-CC
 - A large-scale RSICC dataset with 10,077 bi-temporal image pairs and 50,385 captions.
 - Covers multiple semantic change types: buildings, roads, vegetation, parking lots, water.
@@ -80,6 +80,7 @@ Prediction results in test set with 5 Ground Truth captions are partly shown bel
     <td><img src="https://github.com/user-attachments/assets/b61bad59-afd0-4313-9b97-d7ab859222eb" alt="compare1" width="500"/></td>
   </tr>
 </table>
+
 ## TODO
 - [ ] Release training logs and checkpoints
 - [ ] Support more RSICC datasets
