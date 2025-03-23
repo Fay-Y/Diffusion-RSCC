@@ -80,7 +80,7 @@ For each image pair, the left part is the before image, the righ part is the aft
 
 ## TODO
 - [ ] Release training logs and checkpoints
-- [ ] Support more RSICC datasets (e.g., SEN12MS-CC)
+- [ ] Support more RSICC datasets
 
 
 
